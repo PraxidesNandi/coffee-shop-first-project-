@@ -1,0 +1,232 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Coffee Website</title>
+        <link rel = "stylesheet" href="index.css">
+        <!--box icons-->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      
+    </head>
+    <body>
+        <!--navbar-->
+        <header>
+            <a href="#" class="logo">
+                <img src="images/logo.png" >
+            </a>
+            <!--menu icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!--links-->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customers">Customers</a></li>
+            </ul>
+            <!--icon-->
+            <div class="header-icon">
+            <i class='bx bx-cart-alt'></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            </div>
+            <!--search box-->
+            <div class="search-box">
+                <input type="search" name="search" id="search-input"  placeholder="Search Here---">
+            </div>
+
+        </header>
+        <!--home-->
+         <section class="home" id="home">
+            <div class="home-text">
+                <h1>Start your day <br>with coffee</h1>
+                <p>You can't buy happiness but you can buy coffee, that's pretty close<br>
+                    Just brewed happiness in a cup!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            
+         </section>
+         <!--about-->
+         <section class="about" id="about">
+            <div class="about-img">
+            <img src="images/aboutus.jpg">
+        </div>
+        <div class="about-text">
+        <h2> Our History</h2>
+            <p> This  coffee shop serves various types of coffee, latte, glace, cappuccino etc. It has an espresso bar that specializes in serving espresso and espresso based drinks.</p>
+            <p>From a cultural standpoint, it serves as a center of social interaction. It is a place where people meet to congregate, talk, write, entertain one another, or pass time , whether individually or in groups.</p>
+            <p>This coffee shop serves as an informal club for its regular members. As early as the 1950s Beatnik era and the 1960s folk music scene, coffee houses have hosted singer-songwriter performances , typically in the evening. </p>
+            <a href="#" class="btn">Learn More</a>
+    </div>
+         </section>
+         <!--products-->
+         <section class="products" id="products">
+            <div class="heading">
+                <h2>Our popular products</h2>
+            </div>
+            <div class="products-container">
+                <div class="box" data-product-id="1">
+                    <img src="images/lattte.jpg">
+                    <h3>Latte</h3>
+                    <div class="content">
+                        <span>$9</span>
+                        <a href="#" class="add-to-cart" data-product-id="1">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box" data-product-id="2">
+                    <img src="images/cappucino.jpg">
+                    <h3>Cappuccino</h3>
+                    <div class="content">
+                        <span>$7</span>
+                        <a href="#" class="add-to-cart" data-product-id="2">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box" data-product-id="3">
+                    <img src="images/irish.jpg">
+                    <h3>Irish</h3>
+                    <div class="content">
+                        <span>$5</span>
+                        <a href="#" class="add-to-cart" data-product-id="3">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box" data-product-id="4">
+                    <img src="images/caramelfrappe.jpg">
+                    <h3>Caramel Frappe</h3>
+                    <div class="content">
+                        <span>$10</span>
+                        <a href="#" class="add-to-cart" data-product-id="4">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box" data-product-id="5">
+                    <img src="images/icedlatte.jpg">
+                    <h3>Iced Latte</h3>
+                    <div class="content">
+                        <span>$8</span>
+                        <a href="#" class="add-to-cart" data-product-id="5">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box" data-product-id="6">
+                    <img src="images/glace.jpg">
+                    <h3>Glace</h3>
+                    <div class="content">
+                        <span>$10</span>
+                        <a href="#" class="add-to-cart" data-product-id="6">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--customers-->
+         <section class="customers" id="customers">
+            <div class="heading">
+                <h2> Our Customers</h2>
+            </div>
+            <!--container-->
+            <div class="customers-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p> I like this coffee it's really smooth and has an after taste of chocolate. Service was brilliant and the coffee was delivered perfectly. Lovely  coffee, I think it's my favorite. I am definitely recommending this coffee shop to others</p>
+                    <h2>Yasin Arafat</h2>
+                    <img src="images/customer2.jpg">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        
+                    </div>
+                    <p> I  find, in life, you generally get what you pay for and this is no exception. It won't replace my day to coffee , but its well worth splashing out on if I fancy some caffeine based, self indulgence and luxury. It is one of my favorite so far </p>
+                    <h2>James Walker</h2>
+                    <img src="images/customer1.jpg">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p> i recently purchased latte as a gift for my father, he had been wanting to try it for so long and was excited when he tried it. You could smell the coffee, and generally he loved it. I have always ordered this flavour from my previous coffee supplier, but this is the best</p>
+                    <h2>Katie Thompsons</h2>
+                    <img src="images/customer3.jpg">
+                </div>
+            </div>
+         </section>
+         <section class="footer">
+            <div class="footer-box">
+                <h3>Coffee Shop</h3>
+                <p>This coffee shop provides patrons with a place to congregate, talk , read, write, entertain , and pass time.</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Support</h3>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+               
+             </div>
+             <div class="footer-box">
+                <h3>View Guides</h3>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+                
+             </div>
+             <div class="footer-box">
+                <h3>Contact Us</h3>
+                <div class="contact">
+                    <span><i class='bx bxs-map'></i>768 Nairobi</span>
+                    <span><i class='bx bxs-phone'></i>0786976543</span>
+                    <span><i class='bx bxs-envelope'></i> coffeeshop@gmail.com</span>
+                </div>
+             </div>
+
+         </section>
+         <!--copyright-->
+         <div class="copyright">
+            <p> &#169; CarpoolVenom All Right Reserved</p>
+         </div>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--link to js-->
+        <script src="index.js"></script>
+
+    </body>
+</html>
